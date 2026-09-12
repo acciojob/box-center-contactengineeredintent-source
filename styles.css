@@ -1,19 +1,21 @@
-body{
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.square{
-	background-color:lightblue;
-	border: 2px solid black;
-	height:200px;
-	width:200px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	
-}
-.text{
-	;
+
+.square h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: purple;
+    margin: 0;
 }
